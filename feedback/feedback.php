@@ -5,26 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback</title>
-    <link rel="stylesheet" href="/ExaminationSystem/style.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="header">
         <span class="image">
-            <img src="/ExaminationSystem/images/logo.png" alt="logo">
+            <img src="/images/logo.png" alt="logo">
         </span>
         <span class="title">Online Examination</span>
         <span>
             <ul class="nav">
-                <li><a href="/ExaminationSystem/index.php">Home</a></li>
-                <li><a href="/ExaminationSystem/about.php">About</a></li>
-                <li class="home"><a href="/ExaminationSystem/feedback.php">Feedback</a></li>
-                <li><a href="https://github.com/sarath1405/OnlineExamination"><i class="fa fa-github"></i>  GitHub</a></li> 
+                <li><a href="/index.php">Home</a></li>
+                <li><a href="/about.php">About</a></li>
+                <li class="home"><a href="/feedback.php">Feedback</a></li>
+                <li><a href="https://github.com/sarath1405/ExaminationSystem"><i class="fa fa-github"></i>  GitHub</a></li> 
             </ul>
         </span>
     </div>
     <div class="exambox">
-        <form action="/ExaminationSystem/feedback/feedbacksubmit.php" method="post" autocomplete="off">
+        <form action="/feedback/feedbacksubmit.php" method="post" autocomplete="off">
         <h2>Feedback</h2>
         <div class="questionbox">
             <?php

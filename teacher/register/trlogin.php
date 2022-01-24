@@ -53,7 +53,7 @@ else {
 
     $sql = "INSERT INTO teachers (id,user_name, password) VALUES ($c,'$uname', '$pass')";
     if($conn->query($sql) === TRUE) {
-        header("Location:/ExaminationSystem/teacher/login/tindex.php?success=Registration Successful, please Login!");
+        header("Location:/teacher/login/tindex.php?success=Registration Successful, please Login!");
         exit();
     }
     else {

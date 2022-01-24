@@ -49,7 +49,7 @@ else {
 
     $sql = "INSERT INTO students (id,user_name, password, grade, flag) VALUES ($c,'$uname', '$pass', 10, 0)";
     if($conn->query($sql) === TRUE) {
-        header("Location:/ExaminationSystem/student/login/sindex.php?success=Registration Successful, please Login!");
+        header("Location:/student/login/sindex.php?success=Registration Successful, please Login!");
         exit();
     }
     else {

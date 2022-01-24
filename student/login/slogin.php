@@ -34,7 +34,7 @@ if(mysqli_num_rows($result) == 1) {
         $_SESSION['user_name']=$row['user_name'];
         $_SESSION['name'] = $row['name'];
         $_SESSION['id'] = $row['id'];
-        header("Location:/ExaminationSystem/student/AfterLogin/tests.php");
+        header("Location:/student/AfterLogin/tests.php");
         exit();
     }
     else {

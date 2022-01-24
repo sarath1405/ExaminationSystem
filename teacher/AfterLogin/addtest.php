@@ -9,20 +9,20 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Exam</title>
-    <link rel="stylesheet" href="/ExaminationSystem/teacherlogin2.css">
+    <link rel="stylesheet" href="/teacherlogin2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class="header">
     <span class="image">
-        <img src="/ExaminationSystem/images/logo.png" alt="logo">
+        <img src="/images/logo.png" alt="logo">
     </span>
     <span class="title">Online Examination</span>
     <span>
         <ul class="nav">
             <li class="welcome"><span>Welcome,</span> <?php echo strtoupper($_SESSION['user_name']);?></li>
             <li><a href="home1.php">Home</a></li>
-            <li class="logout"><a href="/ExaminationSystem/teacher/login/tlogout.php">Logout</a></li> 
+            <li class="logout"><a href="/teacher/login/tlogout.php">Logout</a></li> 
         </ul>
     </span>
 </div>

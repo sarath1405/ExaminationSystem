@@ -24,7 +24,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Instructions</title>
-        <link rel="stylesheet" href="/ExaminationSystem/AfterLogin.css">
+        <link rel="stylesheet" href="/AfterLogin.css">
         <script type="text/javascript">
             function disableBack() { window.history.forward(); }
             setTimeout("disableBack()", 0);
@@ -34,14 +34,14 @@ if(isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
     <body>
         <div class="header">
             <span class="image">
-                <img src="/ExaminationSystem/images/logo.png" alt="logo">
+                <img src="/images/logo.png" alt="logo">
             </span>
             <span class="title">Online Examination</span>
             <span>
                 <ul class="nav">
                     <li class="welcome"><span>welcome,</span> <?php echo strtoupper($_SESSION['user_name']);?></li>
                     <li class="welcome"><span>Grade</span> <?php echo $_SESSION['grade'];?></li>
-                    <li class="logout"><a href="/ExaminationSystem/student/login/slogout.php">Logout</a></li>
+                    <li class="logout"><a href="/student/login/slogout.php">Logout</a></li>
                 </ul>
             </span>
         </div>
