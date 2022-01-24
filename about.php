@@ -16,8 +16,8 @@
         <span class="title">Online Examination</span>
         <span>
             <ul class="nav">
-                <li><a href="">Home</a></li>
-                <li class="home"><a href="/index.php">About</a></li>
+                <li><a href="/index.php">Home</a></li>
+                <li class="home"><a href="/about.php">About</a></li>
                 <li><a href="/feedback/feedback.php">Feedback</a></li>
                 <li><a href="https://github.com/sarath1405/OnlineExamination"><i class="fa fa-github"></i>  GitHub</a></li> 
             </ul>
