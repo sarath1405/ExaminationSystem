@@ -11,28 +11,28 @@
 <body>
     <div class="header">
         <span class="image">
-            <img src="/ExaminationSystem/images/logo.png" alt="logo">
+            <img src="/images/logo.png" alt="logo">
         </span>
         <span class="title">Online Examination</span>
         <span>
             <ul class="nav">
                 <li class="home"><a href="">Home</a></li>
-                <li><a href="/ExaminationSystem/about.php">About</a></li>
-                <li><a href="/ExaminationSystem/feedback/feedback.php">Feedback</a></li>
-                <li><a href="https://github.com/sarath1405/OnlineExamination"><i class="fa fa-github"></i>  GitHub</a></li> 
+                <li><a href="/about.php">About</a></li>
+                <li><a href="/feedback/feedback.php">Feedback</a></li>
+                <li><a href="https://github.com/sarath1405/ExaminationSystem"><i class="fa fa-github"></i>  GitHub</a></li> 
             </ul>
         </span>
     </div>
     <section class="options">
         <div class="option">
-            <a href="/ExaminationSystem/student/login/sindex.php">
-            <span><img src="/ExaminationSystem/images/student.png" alt="student"></span>
+            <a href="/student/login/sindex.php">
+            <span><img src="/images/student.png" alt="student"></span>
             <h2>STUDENT</h2>
             </a>
         </div>
         <div class="option">
-            <a href="/ExaminationSystem/teacher/login/tindex.php">
-            <span><img src="/ExaminationSystem/images/teacher.jpg" alt="teacher"></span>
+            <a href="/teacher/login/tindex.php">
+            <span><img src="/images/teacher.jpg" alt="teacher"></span>
             <h2>TEACHER</h2>
             </a>
         </div>
