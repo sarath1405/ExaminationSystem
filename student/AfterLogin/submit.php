@@ -65,7 +65,7 @@ $result = mysqli_query($conn1, $sql);
 $sql = "UPDATE students SET flag=1 WHERE user_name='$usern'";
 $result = mysqli_query($conn1, $sql);
 
-$sql = "INSERT INTO testchecker (test_name, stud_name, totalq, correct, incorrect, score, total) VALUES ('$test', '$usern', $r, $c, $in, $score, $total)";
+$sql = "INSERT INTO testchecker (test_name, stud_name, totalq, correct, incorrect, score, total, date) VALUES ('$test', '$usern', $r, $c, $in, $score, $total, now())";
 $result = mysqli_query($conn2, $sql);
 
 header("Location:result.php?success=<br> Total Questions: {$r}<br> Attempted: {$a}<br> Correct: {$c} <br>  Incorrect: {$in} <br><br>Total Score = {$score} / {$total}");
