@@ -24,7 +24,7 @@
         </span>
     </div>
     <div class="exambox">
-        <form action="/feedback/feedbacksubmit.php" method="post" autocomplete="off">
+        <form action="feedbacksubmit.php" method="post" autocomplete="off">
         <h2>Feedback</h2>
         <div class="questionbox">
             <?php
