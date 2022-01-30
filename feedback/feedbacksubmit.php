@@ -20,7 +20,7 @@ $sql = "SELECT * FROM feedback";
 $result = mysqli_query($conn, $sql);
 $c = mysqli_num_rows($result);
 
-$sql = "INSERT INTO feedback_db.feedback (id, name, email, rating, suggestion) VALUES ($c, '$fname', '$email', $rating, '$suggestion')";
+$sql = "INSERT INTO feedback (id, name, email, rating, suggestion) VALUES ($c, '$fname', '$email', $rating, '$suggestion')";
 
 if($conn->query($sql) == TRUE) {
     header("Location:feedback.php?success=Thank you for your Valuable Feedback !");

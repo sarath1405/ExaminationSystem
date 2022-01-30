@@ -5,9 +5,9 @@ $user = "admin";
 $password = "Zur00QVU";
 $db_name = "feedback_db";
 
-$conn2 = mysqli_connect($s_name, $user, $password, $db_name);
+$conn = mysqli_connect($s_name, $user, $password, $db_name);
 
-if(!$conn2) {
+if(!$conn) {
     echo "DataBase connection failed, Try again!";
 }
 
