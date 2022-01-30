@@ -60,7 +60,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                 while($data2 = mysqli_fetch_array($result1)) { ?>
                     <tr>
                         <td bgcolor="#EEE"><?php echo $data2['stud_name'] ?></td>
-                        <td bgcolor="#EEE"><?php echo $data2['d'] ?></td>
+                        <td bgcolor="#EEE"><?php echo $data2['date'] ?></td>
                         <td bgcolor="#EEE"><?php echo $data2['totalq'] ?></td>
                         <td bgcolor="#EEE"><?php echo $data2['correct'] ?></td>
                         <td bgcolor="#EEE"><?php echo $data2['incorrect'] ?></td>
