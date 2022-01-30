@@ -41,7 +41,7 @@ session_start();
                 <input type="text" name="tname" placeholder="exam name"><br>
             </div>
             <div class="login1">
-                <button type="submit">Add Exam</button>
+                <button type="submit">CREATE</button>
             </div>
         </div>
     </form>

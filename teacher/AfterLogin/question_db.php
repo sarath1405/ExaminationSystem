@@ -1,14 +1,14 @@
-<?php
+<?php 
 
-$s_name = "localhost";
-$user = "root";
-$pass = "";
-$db_name = "questions_db";
+$s_name = "mysql-67603-0.cloudclusters.net:13968";
+$user = "admin";
+$password = "Zur00QVU";
+$db_name = "question_db";
 
-$conn = mysqli_connect($s_name, $user, $pass, $db_name);
+$conn = mysqli_connect($s_name, $user, $password, $db_name);
 
 if(!$conn) {
     echo "DataBase connection failed, Try again!";
-} 
+}
 
 ?>

@@ -62,14 +62,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                             else if(isset($_GET['success'])) { ?>
                                 <p class="success"><?php echo $_GET['success'];?></p>
                             <?php } ?>
-                        <select name="test" id="test">
-                            <option value="0">Select</option>t
-                            <?php 
-                                $i = 0;
-                                while($data = mysqli_fetch_array($result)) { ?>
-                                    <option class="option" value="<?php echo $data[$i]; ?>"><?php echo $data[$i]; ?></option>
-                            <?php } ?>
-                        </select>
+                        <b>You have slelected <?php echo $_SESSION['tname'] ?></b>
                         <?php 
                          if(isset($_GET['details'])) { ?>
                             <p class="details"><?php echo $_GET['details'];?></p>
