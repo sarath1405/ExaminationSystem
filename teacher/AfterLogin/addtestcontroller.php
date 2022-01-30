@@ -6,8 +6,12 @@ $testname = $_POST['tname'];
 
 $sql = "SHOW TABLES";
 $result = mysqli_query($conn, $sql);
+$i = 0;
 while($data = mysqli_fetch_array($result)) {
-    echo $data[0];
+    if($data[$i++] === $testname) {
+        header("Location:addtest.php?error=$testname already exits!");
+        exit();
+    }
 }
 
 $sql = "SHOW TABLES";
