@@ -7,7 +7,7 @@ $testname = $_POST['tname'];
 $sql = "SHOW TABLES";
 $result = mysqli_query($conn, $sql);
 while($data = mysqli_fetch_array($result)) {
-    echo $data;
+    echo $data[0];
 }
 
 $sql = "SHOW TABLES";
