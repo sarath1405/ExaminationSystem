@@ -7,10 +7,7 @@ $testname = $_POST['tname'];
 $sql = "SHOW TABLES";
 $result = mysqli_query($conn, $sql);
 while($data = mysqli_fetch_array($result)) {
-    if($data[$i] == $testname) {
-        header("Location:addtest.php?error=$testname already exists!");
-        exit();
-    }
+    echo $data;
 }
 
 $sql = "SHOW TABLES";
