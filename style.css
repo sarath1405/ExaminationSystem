@@ -8,7 +8,6 @@
 }
 
 body {
-    overflow: hidden;
     background: #222831;
     background-size: cover;
     background-repeat: no-repeat;
@@ -290,12 +289,11 @@ form label {
     width: 150vh;
     align-items: center;
     height: auto;
-    /* border: 1px solid #fff; */
     justify-content: center;
     margin-left: 200px;
 }
 
-.about {
+.about1 {
     color: #EEE;
     letter-spacing: 1px;
     line-height: 40px;

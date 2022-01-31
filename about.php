@@ -24,14 +24,14 @@
         </span>
     </div>x
     <section class="options1">
-    <p class="about">
+    <p class="about1">
         <h2>INTRODUCTION</h2><br>
         Online Examination System is a cost-effective, scalable way to convert traditional pen and paper-based exams to online and paperless mode. Candidates can appear for the exam using any desktop, laptop. Exam results will be generated <b>instantly</b> for the objective type of questions. <br><br>
         <h2>TEACHER</h2><br>
         Teacher role is to <b>CREATE</b> Exams for their students. Every individual Teacher should have to create a <i>unique <b>Username</b></i> and <i><b>Password</b></i> as their login credentials. <br>
         **Teacher must also have unique <b>SECURITY CODE</b> which should not be <em>shared with Student to prevent them from registering as Teacher!</em> <br>
         <ul>
-            Teacher can <br>
+            Teacher can :-<br>
             <li><b>CREATE</b> an Exam with unique Exam name</li>
             <li>add <b>limitless</b> number of questions for a particular Exam</li>
             <li><b>completely</b> <b>DELETE</b> an Exam which was created by them</li>
@@ -41,7 +41,7 @@
         <h2>STUDENT</h2><br>
         Student role is to take part in <b>Exams</b> created by Teacher. Every individual Student should have to create a <i>unique <b>Username</b></i> and <i><b>Password</b></i> as their login credentials. <br>
         <ul>
-            Student must <br>
+            Student must :-<br>
             <li><b>SELECT</b> an Exam from the list of Exams to take test</li>
             <li>follow <b>Instructions</b> while attempting an Exam</li>
             <li><b>look over</b> all the attempted questions before submitting the Exam</li>
