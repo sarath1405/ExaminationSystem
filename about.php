@@ -29,7 +29,7 @@
         Online Examination System is a cost-effective, scalable way to convert traditional pen and paper-based exams to online and paperless mode. Candidates can appear for the exam using any desktop, laptop. Exam results will be generated <b>instantly</b> for the objective type of questions. <br><br>
         <h2><u>TEACHER</u></h2>
         Teacher role is to <b>CREATE</b> Exams for their students. Every individual Teacher should have to create a <i>unique <b>Username</b></i> and <i><b>Password</b></i> as their login credentials. <br>
-        **Teacher must also have unique <b>SECURITY CODE</b> which should not be <em>shared with Student to prevent them from registering as Teacher!</em> <br>
+        **Teacher must also be aware of a unique <b>SECURITY CODE</b> which should not be <em>shared with Student to prevent them from registering as Teacher!</em> <br>
         <ul>
             Teacher can :-<br>
             <li><b>CREATE</b> an Exam with unique Exam name</li>
