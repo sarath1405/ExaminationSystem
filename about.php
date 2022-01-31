@@ -22,11 +22,35 @@
                 <li><a href="https://github.com/sarath1405/OnlineExamination"><i class="fa fa-github"></i>  GitHub</a></li> 
             </ul>
         </span>
-    </div>
+    </div>x
     <section class="options1">
     <p class="about">
-        Online Examination System is an on-line test simulator is to take online examination, test in an efficient manner and no time wasting for manually checking of the test paper. The main objective of this web based online examination system is to efficiently evaluate the student thoroughly through a fully automated system that not only saves lot of time but also gives fast and accurate results. 
-        Online examination system helps students to offer a quick and easy way to appear for the test. It also provides the results immediately after the examination with 100% accuracy and security.
+        <h2>INTRODUCTION</h2><br>
+        Online Examination System is a cost-effective, scalable way to convert traditional pen and paper-based exams to online and paperless mode. Candidates can appear for the exam using any desktop, laptop. Exam results will be generated <b>instantly</b> for the objective type of questions. <br><br>
+        <h2>TEACHER</h2><br>
+        Teacher role is to <b>CREATE</b> Exams for their students. Every individual Teacher should have to create a <i>unique <b>Username</b></i> and <i><b>Password</b></i> as their login credentials. <br>
+        **Teacher must also have unique <b>SECURITY CODE</b> which should not be <em>shared with Student to prevent them from registering as Teacher!</em> <br>
+        <ul>
+            Teacher can <br>
+            <li><b>CREATE</b> an Exam with unique Exam name</li>
+            <li>add <b>limitless</b> number of questions for a particular Exam</li>
+            <li><b>completely</b> <b>DELETE</b> an Exam which was created by them</li>
+            <li><b>examine the students result for any particular exam in a <b>Tabular Format</b></b></li>
+        </ul>
+        <small>*NOTE: No Teacher can delete an Exam created by other Teacher unless the particular Exam contains <b>0</b> questions</small> <br>
+        <h2>STUDENT</h2><br>
+        Student role is to take part in <b>Exams</b> created by Teacher. Every individual Student should have to create a <i>unique <b>Username</b></i> and <i><b>Password</b></i> as their login credentials. <br>
+        <ul>
+            Student must <br>
+            <li><b>SELECT</b> an Exam from the list of Exams to take test</li>
+            <li>follow <b>Instructions</b> while attempting an Exam</li>
+            <li><b>look over</b> all the attempted questions before submitting the Exam</li>
+        </ul>
+        <small>*NOTE: No Student can attempt any particular Exam more than once!</small> <br>
+        Every student can <b>review</b> their attempted Exams in the <b>History</b> section <br>
+        Each and every Student will be initially provided with <b>Grade 10</b>, which will get <b>auto-update</b> and scaled to <b>10</b> every time after submitting the Exam.
+
+        <h1>THANK YOU</h1>
     </p>
     </section>
 </body>
