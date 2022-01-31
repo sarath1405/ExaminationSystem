@@ -285,18 +285,15 @@ form label {
 }
 
 .options1 {
+    color: #EEE;
+    letter-spacing: 1px;
+    line-height: 40px;
     margin-top: 40px;
     width: 150vh;
     align-items: center;
     height: auto;
     justify-content: center;
     margin-left: 200px;
-}
-
-.about1 {
-    color: #EEE;
-    letter-spacing: 1px;
-    line-height: 40px;
 }
 
 
