@@ -25,9 +25,9 @@
     </div>x
     <section class="options1">
     <p class="about1">
-        <h2>INTRODUCTION</h2><br>
+        <h2>INTRODUCTION</h2>
         Online Examination System is a cost-effective, scalable way to convert traditional pen and paper-based exams to online and paperless mode. Candidates can appear for the exam using any desktop, laptop. Exam results will be generated <b>instantly</b> for the objective type of questions. <br><br>
-        <h2>TEACHER</h2><br>
+        <h2>TEACHER</h2>
         Teacher role is to <b>CREATE</b> Exams for their students. Every individual Teacher should have to create a <i>unique <b>Username</b></i> and <i><b>Password</b></i> as their login credentials. <br>
         **Teacher must also have unique <b>SECURITY CODE</b> which should not be <em>shared with Student to prevent them from registering as Teacher!</em> <br>
         <ul>
@@ -35,10 +35,10 @@
             <li><b>CREATE</b> an Exam with unique Exam name</li>
             <li>add <b>limitless</b> number of questions for a particular Exam</li>
             <li><b>completely</b> <b>DELETE</b> an Exam which was created by them</li>
-            <li><b>examine the students result for any particular exam in a <b>Tabular Format</b></b></li>
+            <li>examine the students result for any particular exam in a <b>Tabular Format</b></li>
         </ul>
-        <small>*NOTE: No Teacher can delete an Exam created by other Teacher unless the particular Exam contains <b>0</b> questions</small> <br>
-        <h2>STUDENT</h2><br>
+        <small>*NOTE: No Teacher can delete an Exam created by other Teacher unless the particular Exam contains <b>0</b> questions</small> <br><br>
+        <h2>STUDENT</h2>
         Student role is to take part in <b>Exams</b> created by Teacher. Every individual Student should have to create a <i>unique <b>Username</b></i> and <i><b>Password</b></i> as their login credentials. <br>
         <ul>
             Student must :-<br>
@@ -48,7 +48,7 @@
         </ul>
         <small>*NOTE: No Student can attempt any particular Exam more than once!</small> <br>
         Every student can <b>review</b> their attempted Exams in the <b>History</b> section <br>
-        Each and every Student will be initially provided with <b>Grade 10</b>, which will get <b>auto-update</b> and scaled to <b>10</b> every time after submitting the Exam.
+        Each and every Student will be initially provided with <b>Grade 10</b>, which will get <b>auto-update</b> and scaled to <b>10</b> every time after submitting the Exam. <br>
 
         <h1>THANK YOU</h1>
     </p>
