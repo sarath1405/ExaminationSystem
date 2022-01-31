@@ -28,6 +28,6 @@ if($conn->query($sql) === TRUE) {
     exit();
 }
 else {
-    header("Location:addtest.php?error=$conn->error");
+    header("Location:addtest.php?error=Exam name should not contain spaces or special characters!");
     exit();
 }
