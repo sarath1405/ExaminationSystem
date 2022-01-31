@@ -291,11 +291,8 @@ form label {
     align-items: center;
     height: auto;
     /* border: 1px solid #fff; */
-    display: flex;
     justify-content: center;
-    justify-content: space-evenly;
     margin-left: 200px;
-    height: 70vh;
 }
 
 .about {
